@@ -36,6 +36,10 @@ header {
     opacity: 0.7;
 }
 
+.logo a {
+    justify-content: left;
+}
+
 .logo span {
    text-emphasis: bold;
    color: black;
