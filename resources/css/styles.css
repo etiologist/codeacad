@@ -6,6 +6,10 @@ html {
     font-size: 21px;
 }
 
+img {
+    display: block;
+}
+
 h1, h2 {
     color: white;
 }
