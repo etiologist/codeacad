@@ -23,35 +23,41 @@ header {
     width: 100%;
 }
 
-.mobile {
+header .content {
+    height: 100%;
+}
+
+header .mobile {
     display: none;
 }
 
-.logo {
-    justify-content: left;
+header .logo {
     flex: 1;
-    padding-left: 24px;
+    margin-left: 24px;
+    height: 32px;
+}
+
+header .logo .text {
+    display: inline-block;
     text-transform: uppercase;
     font-size: 26px;
-    opacity: 0.7;
+    display: relative;
+    top: 50%;
+    transform: translateY(-25%);
 }
 
-.logo a {
-    justify-content: left;
+header .logo span {
+    color:black
 }
 
-.logo span {
-   text-emphasis: bold;
-   color: black;
+header nav {
+    margin-right: 24px;
 }
 
-nav {
-    text-align: right;
-    padding-right: 24px;
-}
-
-nav a {
+header nav a {
     padding-left: 16px;
 }
+
+
 
 
