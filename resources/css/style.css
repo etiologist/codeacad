@@ -1,7 +1,12 @@
 html {
-    font-size: 16px; 
-    font-family: helvetica sans-serif;
-    color: gray;    
+    font-size: 18px; 
+    font-family: Georgia, 'Times New Roman', Times;
+    color: gray; 
+    box-sizing: border-box;  
+}
+
+p, a, h1, h2, h3, h4, h5, h6 {
+    color: gray;
 }
 
 .flex-container{
@@ -13,10 +18,9 @@ html {
 
 header {
     height: 64px;
-    padding: 5px 24px;
-    margin: 0;
     position: fixed;
     z-index: 1;
+    width: 100%;
 }
 
 .mobile {
@@ -24,24 +28,26 @@ header {
 }
 
 .logo {
-    text-align: left;
-    height: 32px;
-}
-
-.logo a { 
-   text-transform: uppercase;
-   font-size: 26px;
-   opacity: 0.7; 
+    justify-content: left;
+    flex: 1;
+    padding-left: 24px;
+    text-transform: uppercase;
+    font-size: 26px;
+    opacity: 0.7;
 }
 
 .logo span {
    text-emphasis: bold;
-   opacity: 1;
+   color: black;
 }
 
 nav {
     text-align: right;
-    padding-left: 16px 
+    padding-right: 24px;
+}
+
+nav a {
+    padding-left: 16px;
 }
 
 
