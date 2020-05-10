@@ -6,8 +6,9 @@ html {
     font-size: 21px;
 }
 
-img {
-    display: block;
+img, video {
+    display: inline-block;
+    padding-top: 20px;
 }
 
 h1, h2 {
